@@ -1,0 +1,47 @@
+/*web-cv*/
+@media (max-width: 425px) {
+  .cv-page {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .topvar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .topvar .item {
+    display: block;
+  }
+  .cv-section {
+    padding-top: 10px;
+  }
+  .cv-info .info,
+  .certificate .section-1 {
+    grid-template-columns: 1fr;
+  }
+  .project .main-project {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .certificate .section-1 .item-1,
+  .certificate .section-2 .item-1 {
+    display: block;
+  }
+  .certificate .section-1 #item-1 {
+    border-left: none;
+    border-top: 1px solid #d6c08d;
+    padding-top: 20px;
+  }
+  .project-1 {
+    width: 100%;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  #job {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
